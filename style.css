@@ -1,0 +1,43 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Font for the whole page */
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('https://via.placeholder.com/1920x400'); /* Placeholder for hero image */
+    background-size: cover; /* Ensure the image covers the section */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color for hero section */
+}
+
+/* Card Styles for Product Section */
+.card {
+    border: none; /* Remove card border */
+    transition: transform 0.2s; /* Smooth transform effect */
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+}
+
+/* Contact Form Styles */
+.form-label {
+    font-weight: bold; /* Bold labels for form */
+}
+
+.form-control {
+    border-radius: 0.25rem; /* Rounded corners for input fields */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero {
+        padding: 2rem 1rem; /* Padding adjustments for smaller screens */
+    }
+    
+    .container {
+        padding: 0 1rem; /* Container padding adjustments */
+    }
+}
